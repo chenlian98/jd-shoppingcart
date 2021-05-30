@@ -1,0 +1,174 @@
+.box {
+    position: fixed;
+    top: 20%;
+    left: 10px;
+}
+
+.box .img {
+    width: 220px;
+    display: flex;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.box .img span {
+    font-size: 12px;
+}
+.box .add {
+    background-color: #9393c6;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+
+main {
+    width: 990px;
+    margin: 15px auto 0;
+}
+
+main .cart-thead {
+    height: 42px;
+    line-height: 42px;
+    background: #f3f3f3;
+}
+
+main .cart-thead .check-all {
+    margin-left: 10px;
+    float: left;
+}
+main .cart-thead .check-all label {
+    cursor: pointer;
+}
+main .cart-thead .check-all >input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+main .cart-thead .check-all > :nth-child(3) {
+    margin-left: 40px;
+}
+main .cart-thead .right {
+    float: right;
+}
+
+main .cart-thead .right>li{
+    width: 108px;
+    float: left;
+}
+
+/**/
+main .item {
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main .item .price {
+    margin: 0 30px 0 170px;
+}
+
+main .item .bill {
+    margin-left: 10px;
+}
+
+main .item  .p-img {
+    margin: 0 20px;
+
+}
+
+main .item .title {
+    width: 231px;
+
+}
+
+
+main .item .quantity-form {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+}
+
+main .item .quantity-form>:nth-child(1) {
+    float: left;
+}
+
+main .item .quantity-form>:nth-child(3) {
+    float: right;
+}
+
+main .item .quantity-form>:nth-child(1),
+main .item .quantity-form>:nth-child(3) {
+    width: 30px;
+    background: #e9e9e9;
+    cursor: pointer;
+}
+
+main .item .quantity-form>:nth-child(2){
+    text-align: center;
+    width: 60px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+main .item .subtotal {
+    line-height: 30px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: orange;
+}
+
+main .item  .subtotal span {
+    color: orange;
+}
+main .item .del {
+    width: 108px;
+    cursor: pointer;
+    color: #f19a9a;
+}
+main .item.bj{
+    background: rgb(247, 236, 216);
+}
+.end {
+    width: 990px;
+    margin: 10px auto 0;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: right;
+    line-height: 40px;
+}
+.end :nth-child(1),
+.end :nth-child(2) {
+    font-size: 15px;
+}
+.end :nth-child(1){
+    margin: 0 5px 0 10px;
+}
+
+.end :nth-child(1)>i ,
+.end :nth-child(2)>i
+{
+    margin: 10px;
+    color: orange;
+}
+
+.end :nth-child(2){
+    margin-right: 25px;
+}
+.end :nth-child(3){
+    width: 90px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    line-height: 52px;
+    border-radius: 2px;
+}
